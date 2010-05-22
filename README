@@ -1,0 +1,16 @@
+Wowhead search extension for Chrome
+
+
+Changelog:
+
+v1.2 (2010-04-06):
+- Fixed a URL encoding issue
+
+v1.1 (2010-03-06):
+- Add auto-suggest popup (by popular demand)
+
+v1.0 (2010-03-05):
+- Initial Release
+
+Disclaimer:
+This extension is not officially supported by Wowhead and is provided as-is.  There are no plans to add other features.  Based on previous work by cleanrot.

@@ -1,0 +1,77 @@
+  html {
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+  }
+  body {
+	margin:2px;
+	padding:2px;
+  }
+  table, tr, td {
+	margin:0px;
+	padding:0px;
+  }
+  table {
+	border-collapse: collapse;
+  } 
+  td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px #000 solid;
+  } 
+  #container {
+	width:255px;
+  }
+  #searchBox {
+	 width:202px;
+	 height:22px;
+	 font-size:13px;
+	 font-family:arial;
+	 color:#000000;
+	 margin-top:3px;
+	 background-image:url('16.png');
+	 background-repeat:no-repeat;
+	 background-position:4px 5px;
+	 padding-left:25px;
+	 padding-top:2px;
+	 border:1px solid #9a9a9a;
+	 border-right:0px;
+  }
+  #searchButton {
+	 float:right;
+	 width:28px;
+	 height:25px;
+	 margin-top:3px;
+	 cursor:pointer;
+	 border:1px solid #9a9a9a;
+	 border-left:0px;
+  }
+  
+  .fd {
+	 position:absolute;
+	 z-index:1000;
+	 top:100px;
+	 left:0px;
+	 border:1px solid #9a9a9a;
+	 background-color:#484848;
+	 padding-bottom:1px;
+  }
+  .gffg {
+	 float:left;
+	 clear:both;
+	 font-size:13px;
+	 font-family:arial;
+	 width:203px;
+	 cursor:pointer;
+	 margin: 2px 2px 0px 2px;
+	 padding: 2px 10px 2px 10px;
+	 color:#dfd110;
+	 background: #282828;
+	 overflow: hidden;
+	 white-space: nowrap;
+	 text-overflow: ellipsis;
+	 -moz-user-select : none;
+  }
+  .gffg.selected{
+	 background-color:#383838;
+  }	
